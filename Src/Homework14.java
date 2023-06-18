@@ -10,45 +10,37 @@ public class Homework14 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Введіть число від 1 до 3");
-        while (true){
+        while (true) {
             personInfo();
             int d = sc.nextInt();
             System.out.println(d);
-            switch (d){
+            switch (d) {
                 case 1:
-                    System.out.println(" Зателефонуйте громадянові " + person1.firstName  +  person1.lastName + " із міста " + person1.city + " можна за номером " + person1.telephone);
+                    System.out.println(" Зателефонуйте громадянові " + person1.firstName + person1.lastName + " із міста " + person1.city + " можна за номером " + person1.telephone);
                     break;
                 case 2:
-                    System.out.println(" Зателефонуйте громадянові " + person2.firstName  +  person2.lastName + " із міста " + person2.city + " можна за номером " + person2.telephone);
+                    System.out.println(" Зателефонуйте громадянові " + person2.firstName + person2.lastName + " із міста " + person2.city + " можна за номером " + person2.telephone);
                     break;
                 case 3:
-                    System.out.println(" Зателефонуйте громадянові " + person3.firstName  +  person3.lastName + " із міста " + person3.city + " можна за номером " + person3.telephone);
+                    System.out.println(" Зателефонуйте громадянові " + person3.firstName + person3.lastName + " із міста " + person3.city + " можна за номером " + person3.telephone);
                     break;
 
 
                 default:
-                    System.out.println("Інформація відсутня" );
+                    System.out.println(" Інформація відсутня ");
 
                     return;
             }
 
         }
 
-
-
-
-
-
-
-
 //        System.out.println(person1);
 //        System.out.println(person2);
 //        System.out.println(person3);
 
-
-
     }
-    public static  void personInfo(){
+
+    public static void personInfo() {
         System.out.println("1");
         System.out.println("2");
         System.out.println("3");
