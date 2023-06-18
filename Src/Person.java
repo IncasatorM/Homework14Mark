@@ -1,28 +1,9 @@
 public class Person {
-    String firstName;
-    String lastName;
-    String city;
-    String telephone;
 
-
-
-
-    public Person(String firstName, String lastName, String city, String telephone) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.city = city;
-        this.telephone = telephone;
+    public String personInfo(String name, String city, int phone) {
+        return ("Зателефонувати громадянину " + name + " із міста " + city + " можна за номером " + phone);
 
 
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", city='" + city + '\'' +
-                ", telephone='" + telephone + '\'' +
-                '}';
-    }
 }
